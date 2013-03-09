@@ -101,7 +101,7 @@ nnoremap <silent> <F8> :TagbarOpenAutoClose<CR>
 nnoremap <silent> <M-Left> :bprev<CR>
 nnoremap <silent> <M-Right> :bnext<CR>
 
-function MakeAbb()
+function! MakeAbb()
     let long=@s
     let short=input("short:")
     exe "iab ". short ." ".long
