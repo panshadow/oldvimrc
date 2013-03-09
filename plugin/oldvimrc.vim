@@ -109,4 +109,4 @@ endfunction
 
 vnoremap <silent> <C-A> "sy<Esc>:call MakeAbb()<CR>
 
-#let g:Powerline_symbols='fancy'
+"let g:Powerline_symbols='fancy'
